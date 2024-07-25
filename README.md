@@ -1,6 +1,8 @@
 # gogo7-sesi
 Information about the GoGo Board version 7 for use in the SESI project in Brazil
 
+<img src="https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C.png" width="250">
+
 This repository contains manufacturing and testing information of the GoGo Board Educational Robotics Platform. The GoGo Board is created as a collaboration between  Chiang Mai University in Thailand and Columbia University in New York, USA. The GoGo Board is a physical computing platform with low a learn threshold, allowing learners ages 10 and higher to explore important ideas in STEAM and Computation Thinking. It is perticularly designed for Automation, Internet of Things (IoT), Data Analytics, and Artificail Intelligence (AI).
 
 # Overview 
