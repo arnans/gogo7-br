@@ -60,7 +60,8 @@ This webapplication has the following capabilities:
 - [PCB Gerber Files](https://github.com/arnans/gogo7-sesi/blob/main/Gerber_PCB_GoGo_7C_2024-05-18.zip) - The GoGo Board 7 uses a 4-layer PCB.  
 - [Pick and Place file](https://github.com/arnans/gogo7-sesi/blob/main/PickAndPlace_PCB_GoGo%207C_2024-05-18.xlsx)
 - [Bill of Materials](https://github.com/arnans/gogo7-sesi/blob/main/BOM_GoGo%207_PCB_GoGo%207C_2024-05-18.xlsx)
-- Photos: 3D Render [[Top](https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C%203D%20topview.png) | [Bottom](https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C%203D%20bottomview.png)] , Assembled board photo [Top | Bottom]
+- 3D Render [[Top](https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C%203D%20topview.png) | [Bottom](https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C%203D%20bottomview.png)]
+- Photos: Assembled board photo [[Top](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035141521.MP.jpg) | [Top Perspective](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035324777.MP.jpg) | [Bottom](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035150818.MP.jpg) | [Bottom Perspective](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035346049.MP.jpg)]
 - Firmware: [Main CPU (ESP32-S3)] | [Tasmota Core (ESP32-C3)]
 - [Test and QC procedure]
 
