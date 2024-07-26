@@ -57,6 +57,7 @@ This webapplication has the following capabilities:
 
 # Manufacturing Information
 
+These files are for GoGo Baord version 7C
 - [PCB Gerber Files](https://github.com/arnans/gogo7-sesi/blob/main/Gerber_PCB_GoGo_7C_2024-05-18.zip) - The GoGo Board 7 uses a 4-layer PCB.  
 - [Pick and Place file](https://github.com/arnans/gogo7-sesi/blob/main/PickAndPlace_PCB_GoGo%207C_2024-05-18.xlsx)
 - [Bill of Materials](https://github.com/arnans/gogo7-sesi/blob/main/BOM_GoGo%207_PCB_GoGo%207C_2024-05-18.xlsx)
