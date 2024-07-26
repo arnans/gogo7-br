@@ -67,7 +67,7 @@ This webapplication has the following capabilities:
 
 # License
 
-This work is licensed under a Creative Commons Attribution-NonCommercial (CC BY-NC) license. You are free to share, copy, and redistribute the material in any medium or format. However, any commercial use of this work is strictly prohibited without prior written consent from the author.
+This work is licensed under a Creative Commons Attribution-NonCommercial (CC BY-NC) license. You are free to share, copy, and redistribute the material in any medium or format. However, any commercial use of this work is strictly prohibited without prior written consent from the author. Contact arnan.s@cmu.ac.th for more information.
 
 <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.png" width="100">
 
