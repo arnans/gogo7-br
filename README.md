@@ -1,9 +1,9 @@
 # gogo7-sesi
-Information about the GoGo Board version 7 for use in the SESI project in Brazil
+Informações sobre a GoGo Board versão 7 para uso no projeto SESI no Brasil
 
 <img src="https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C.png" width="250">
 
-This repository contains manufacturing and testing information of the GoGo Board Educational Robotics Platform. The GoGo Board is created as a collaboration between  Chiang Mai University in Thailand and Columbia University in New York, USA. The GoGo Board is a physical computing platform with a low learn threshold but also a high capability ceiling, allowing learners ages 10 and higher to explore important ideas in STEAM and Computation Thinking. It is suitable for work in the areas such as  Automation, Internet of Things (IoT), Data Analytics, and Artificail Intelligence (AI).
+Este repositório contém informações de fabricação e teste da Plataforma de Robótica Educacional GoGo Board. A GoGo Board foi criada em colaboração entre a Universidade de Chiang Mai na Tailândia e a Universidade de Columbia em Nova Iorque, EUA. A GoGo Board é uma plataforma de computação física que tem como pré-requisito pouca ou nenhuma experiência com programação/eletrônica, mas permite que crianças a partir dos 10 anos explorem ideias importantes em STEAM e Pensamento Computacional. Ela é adequada para trabalhos em áreas como Automação, Internet das Coisas (IoT), Análise de Dados e Inteligência Artificial (IA).
 
 # Overview 
 
@@ -11,60 +11,60 @@ This repository contains manufacturing and testing information of the GoGo Board
 
 <img src="https://github.com/arnans/gogo7-sesi/blob/main/gogo%207%20diagram/GoGo%207C%20Top%201.jpg" width=640>
 
-### Components as shown above
+### Componentes conforme mostrado acima
 
-- **Color Display**: 1.8 inch display. Allows basic control and readout of various input and outputs.
-- **D-Pad**: A joystick for navigating the screen.
-- **USB-C**: Used to supply power and communicate with the programming web application
-- **On-Off switch**: Controls the power delivered to the board.
-- **Sensor Inputs**: 4 analog sensor input ports
-- **Output Ports**: 4 bi-directional ports are available using a JST connector. Each port is capable of driving 1A at 5V. 
-- **Servo & Relay Ports**: 4 digital control ports. Can drive Servo Motors or Relays.
-- **Extension Ports**: This includes the Multi-device, Configurable, Extension 1, 2, and the Output Extension Bus.
+- **Display Colorido**: Display de 1,8 polegadas. Permite o controle básico e a leitura de várias entradas e saídas.
+- **D-Pad**: Um joystick para navegar na tela.
+- **USB-C**: Usado para fornecer energia e se comunicar com a aplicação web de programação.
+- **Chave On-Off**: Controla a energia fornecida à placa.
+- **Entradas de Sensores**: 4 portas de entrada de sensores analógicos.
+- **Portas de Saída**: 4 portas bidirecionais disponíveis usando um conector JST. Cada porta é capaz de conduzir 1A a 5V.
+- **Portas para Servomotor & Relé**: 4 digital control ports. Can drive Servo Motors or Relays.
+- **Portas de Extensão**: Isso inclui o Multi-dispositivo, Configurável, Extensão 1, 2 e o Barramento de Extensão de Saída.
 
 <img src="https://github.com/arnans/gogo7-sesi/blob/main/gogo%207%20diagram/GoGo%207C%20Top%202.jpg" width=400>
 
-### Components as shown above
+### Componentes conforme mostrado acima
 
-- **Status LEDs**: Shows the run/stop state of the user code.
-- **Built-in Sensors**: Digital Microphone (Loudness), IMU (Acceleration & Gyration), Bightness, Proximity
-- **Infrared Transmitter and Receiver**
+- **LEDs de Status**: Mostra o estado de execução/parada do código do usuário.
+- **Sensors Integrados**: Microfone Digital (Intensidade de Som), IMU (Aceleração e Giro), Brilho, Proximidade.
+- **Transmissor e Receptor Infravermelho**
 
 <img src="https://github.com/arnans/gogo7-sesi/blob/main/gogo%207%20diagram/GoGo%207C%20Back.jpg" width=500>
 
-### Components as shown above
+### Componentes conforme mostrado acima
 
-- **ESP32-S3**: Main CPU. Runs the GoGo Board's operating system and user code.
-- **ESP32-C3**: Auxilary CPU. Contains the Tasmota firmware by default. This core has a dedicated USB-C port for flashing the firmware.
-- **Boot Buttons**: Used for flasing the corresponding CPUs via the USB-C port. 
-- **H-Bridge Drivers, I2C Driver chip**: Used to drive the output ports. They are controlled via the I2C I/O Driver chip.
-- **Buzzer**: A Piezo buzzer.
-- **Current limiter**: Prevents in-rush current to the the servo motors.
-- **I/O Expansion Pins**: Provides expansion capabilities for the GoGo Board
-- **5 to 3.3 volt divider**: ADC interface to the CPU.
+- **ESP32-S3**: CPU principal. Executa o sistema operacional da GoGo Board e o código do usuário.
+- **ESP32-C3**: CPU auxiliar. Contém o firmware Tasmota por padrão. Este núcleo possui uma porta USB-C dedicada para atualizar o firmware.
+- **Botões de Boot**: Usados para atualizar as CPUs correspondentes via porta USB-C.
+- **Ponte-H Drivers, I2C Driver chip**: Usados para acionar as portas de saída. Eles são controlados via chip Driver I2C I/O.
+- **Buzzer**: Um buzzer Piezo.
+- **Limitador de Corrente**: Evita corrente de surto nos motores servo.
+- **Pinos de Expansão de I/O**: Fornecem capacidades de expansão para a GoGo Board.
+- **Divisor de 5 para 3,3 volts**: Interface ADC para a CPU.
 
-## The GoGo 7 Programming Environment
+## O Ambiente de Programação GoGo 7
 
 <img src="https://github.com/arnans/gogo7-sesi/blob/main/gogo%207%20diagram/code.gogoboard.png" width=800>
 
-This webapplication has the following capabilities:
-- [Access via https://code.gogoboard.org](https://code.gogoboard.org)
-- Connects to the GoGo Board using USB, Wifi or remote lab.
-- Offeres a modern block-based programming.
-- Contains cards to monitor and configure various functionalities.
-- Cloud storage. Code can be saved and shared on the cloud.
-- Learning tools. Data Lab, Classroom, Web UI for remote control and more.
+Esta aplicação web possui as seguintes capacidades
+- [Accesso via https://code.gogoboard.org](https://code.gogoboard.org)
+- Conecta-se à GoGo Board usando USB, Wi-Fi ou laboratório remoto.
+- Oferece uma programação moderna baseada em blocos.
+- Contém cartões para monitorar e configurar várias funcionalidades.
+- Armazenamento em nuvem. O código pode ser salvo e compartilhado na nuvem.
+- Ferramentas de aprendizagem. Laboratório de Dados, Sala de Aula, Interface Web para controle remoto e mais.
 
-# Manufacturing Information
+# Informações de Fabricação
 
-These files are for GoGo Board version 7C
-- [PCB Gerber Files](https://github.com/arnans/gogo7-sesi/blob/main/Gerber_PCB_GoGo_7C_2024-05-18.zip) - The GoGo Board 7 uses a 4-layer PCB.  
-- [Pick and Place file](https://github.com/arnans/gogo7-sesi/blob/main/PickAndPlace_PCB_GoGo%207C_2024-05-18.xlsx)
+Esses arquivos são para a versão 7C da GoGo Board
+- [Arquivos PCB Gerber](https://github.com/arnans/gogo7-sesi/blob/main/Gerber_PCB_GoGo_7C_2024-05-18.zip) - A GoGo Board 7 usa uma PCB de 4 camadas.
+- [Arquivo Pick and Place](https://github.com/arnans/gogo7-sesi/blob/main/PickAndPlace_PCB_GoGo%207C_2024-05-18.xlsx)
 - [Bill of Materials](https://github.com/arnans/gogo7-sesi/blob/main/BOM_GoGo%207_PCB_GoGo%207C_2024-05-18.xlsx)
-- 3D Render [[Top](https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C%203D%20topview.png) | [Bottom](https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C%203D%20bottomview.png)]
-- Photos: Assembled board photo [[Top](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035141521.MP.jpg) | [Top Perspective](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035324777.MP.jpg) | [Bottom](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035150818.MP.jpg) | [Bottom Perspective](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035346049.MP.jpg)]
+- Renderização 3D [[Top](https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C%203D%20topview.png) | [Bottom](https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C%203D%20bottomview.png)]
+- Fotos:foto da palca montada [[Superior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035141521.MP.jpg) | [Perspectiva Superior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035324777.MP.jpg) | [Inferior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035150818.MP.jpg) | [Perspectiva Inferior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035346049.MP.jpg)]
 - Firmware: [Main CPU (ESP32-S3)](https://github.com/arnans/gogo7-sesi/tree/main/firmware%20ESP32-S3) | [Tasmota Core (ESP32-C3)]
-- [Test and QC procedure](https://docs.google.com/document/d/1wkHplLRawxpCvvXY5K_7zhaUBPVLWB5iVyL8zbxunkI/edit#heading=h.g8lrajqe9t70)
+- [Procedimento de Teste e Controle de Qualidade](https://docs.google.com/document/d/1wkHplLRawxpCvvXY5K_7zhaUBPVLWB5iVyL8zbxunkI/edit#heading=h.g8lrajqe9t70)
 
 # License
 
