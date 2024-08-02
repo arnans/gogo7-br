@@ -5,6 +5,10 @@ Informações sobre a GoGo Board versão 7 para uso no projeto SESI no Brasil
 
 Este repositório contém informações de fabricação e teste da Plataforma de Robótica Educacional GoGo Board. A GoGo Board foi criada em colaboração entre a Universidade de Chiang Mai na Tailândia e a Universidade de Columbia em Nova Iorque, EUA. A GoGo Board é uma plataforma de computação física que tem como pré-requisito pouca ou nenhuma experiência com programação/eletrônica, mas permite que crianças a partir dos 10 anos explorem ideias importantes em STEAM e Pensamento Computacional. Ela é adequada para trabalhos em áreas como Automação, Internet das Coisas (IoT), Análise de Dados e Inteligência Artificial (IA).
 
+<img src="https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/3D_PCB_GoGo%207C.png" width="500">
+
+Sensor Set is a collection of useful sensors, actuators, and cable adapters that allows practical useage of the GoGo Board. The modules mainly uses the Grove and JST connectors. The set is manufactured as a panel to ease distribution. The individual modules can be broken off by hand upon first use. 
+
 # Overview 
 
 ## The GoGo 7 Hardware
@@ -65,6 +69,35 @@ Esses arquivos são para a versão 7C da GoGo Board
 - Fotos:foto da palca montada [[Superior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035141521.MP.jpg) | [Perspectiva Superior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035324777.MP.jpg) | [Inferior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035150818.MP.jpg) | [Perspectiva Inferior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035346049.MP.jpg)]
 - Firmware: [Main CPU (ESP32-S3)](https://github.com/arnans/gogo7-sesi/tree/main/firmware%20ESP32-S3) | [Tasmota Core (ESP32-C3)]
 - [Procedimento de Teste e Controle de Qualidade](https://docs.google.com/document/d/1wkHplLRawxpCvvXY5K_7zhaUBPVLWB5iVyL8zbxunkI/edit#heading=h.g8lrajqe9t70)
+
+# GoGo Sensor Set 7C
+
+<img src="https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/GoGo%20Sensor%20Set%207C%20Diagram.png" width="900">
+
+There are a total of 14 different module types on the panel as follows:
+
+- 2x Grove to Terminal Block Adapter
+- 2x Grove to 3-pin Servo Motor Adapter
+- 2x Grove to Grove Extension
+- 2x JST to JST Extension
+- 1x Rain Sensor
+- 1x Joystick (5-ways)
+- 1x Red/Blue LED pair
+- 2x Whte LEDs
+- 1x Digital Temperature and RH sensor
+- 1x Potentiometer (Knob)
+- 2x Limit Switches
+- 1x Luminosity Sensor
+- 2x IR Proximity Sensor
+
+# Informações de Fabricação
+
+- [PCB Gerber Files](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/Gerber_PCB_GoGo_7_-_Sensor_Set_7c_-_vcut_2024-05-31.zip)
+- [Pick and Place File](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/PickAndPlace_PCB_GoGo%207%20-%20Sensor%20Set%207c%20-%20vcut_2024-05-31.xlsx)
+- [Bill of Materials](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/BOM_GoGo%207%20-%20Sensor%20Set_PCB_GoGo%207%20-%20Sensor%20Set%207c%20-%20vcut_2024-05-31.xlsx)
+- [3D Render of the board](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/Sensor%20Set%207C%203D%20Perspective.png)
+- Photos of an assembled board [Top | Bottom | Perspective]
+
 
 # License
 
