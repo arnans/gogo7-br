@@ -67,7 +67,7 @@ Esses arquivos são para a versão 7C da GoGo Board
 - [Bill of Materials](https://github.com/arnans/gogo7-sesi/blob/main/BOM_GoGo%207_PCB_GoGo%207C_2024-05-18.xlsx)
 - Renderização 3D [[Top](https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C%203D%20topview.png) | [Bottom](https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C%203D%20bottomview.png)]
 - Fotos:foto da palca montada [[Superior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035141521.MP.jpg) | [Perspectiva Superior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035324777.MP.jpg) | [Inferior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035150818.MP.jpg) | [Perspectiva Inferior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035346049.MP.jpg)]
-- Firmware: [Main CPU (ESP32-S3)](https://github.com/arnans/gogo7-sesi/tree/main/firmware%20ESP32-S3) | [Tasmota Core (ESP32-C3)]
+- Firmware: [Main CPU (ESP32-S3) and Tasmota Core (ESP32-C3)](https://github.com/arnans/gogo7-sesi/blob/main/firmware)
 - [Procedimento de Teste e Controle de Qualidade](https://docs.google.com/document/d/1wkHplLRawxpCvvXY5K_7zhaUBPVLWB5iVyL8zbxunkI/edit#heading=h.g8lrajqe9t70)
 
 # GoGo Sensor Set 7C
