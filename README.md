@@ -96,7 +96,7 @@ There are a total of 14 different module types on the panel as follows:
 - [Pick and Place File](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/PickAndPlace_PCB_GoGo%207%20-%20Sensor%20Set%207c%20-%20vcut_2024-05-31.xlsx)
 - [Bill of Materials](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/BOM_GoGo%207%20-%20Sensor%20Set_PCB_GoGo%207%20-%20Sensor%20Set%207c%20-%20vcut_2024-05-31.xlsx)
 - [3D Render of the board](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/Sensor%20Set%207C%203D%20Perspective.png)
-- Photos of an assembled board [Top | Bottom | Perspective]
+- Photos of an assembled board [[Top](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/Photos/sensor%20set%207c%20top%20view.jpg) | [Bottom](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/Photos/sensor%20set%207c%20bottom%20view.jpg) | [Perspective](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/Photos/sensor%20set%207c%20perspective.jpg)]
 
 
 # License
