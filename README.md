@@ -1,5 +1,5 @@
-# gogo7-sesi
-Informações sobre a GoGo Board versão 7 para uso no projeto SESI no Brasil
+# gogo7-br
+Informações sobre a GoGo Board versão 7 para uso no Brasil
 
 <img src="https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C.png" width="250">
 
