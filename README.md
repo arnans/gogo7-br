@@ -98,6 +98,19 @@ There are a total of 14 different module types on the panel as follows:
 - [3D Render of the board](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/Sensor%20Set%207C%203D%20Perspective.png)
 - Photos of an assembled board [[Top](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/Photos/sensor%20set%207c%20top%20view.jpg) | [Bottom](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/Photos/sensor%20set%207c%20bottom%20view.jpg) | [Perspective](https://github.com/arnans/gogo7-sesi/blob/main/2024%20Sensor%20Set%207C/Photos/sensor%20set%207c%20perspective.jpg)]
 
+# GoGo Clock Module Add-on
+
+This add-on adds the following functionalities to the GoGo Board 7
+
+- Real-time Clock. The board contains a high precision clock allowing the GoGo Board to know the date and time even when not connected to the Internet. The date-time is retained using a coin battery.
+- Multi-Port expansion. There are 4 multi-ports available. This allows users to connect more digitl sensors to the GoGo Board. Note that these ports are all connected to the multi-port on the main gogo board. They share the same I2C bus.
+- SD Card slot. This feature is currently not implemented in the firmware.
+
+# Fabrication Files
+- [PCB Gerber Files](https://github.com/arnans/gogo7-br/blob/main/2024%2006%20Clock%20Module%20Add-on/Gerber_Clock_Module_v1C_2024-06-01.zip)
+- [Pick and Place File](https://github.com/arnans/gogo7-br/blob/main/2024%2006%20Clock%20Module%20Add-on/PickAndPlace_Clock%20Module%20v1C_2024-06-01.xlsx)
+- [Bill of Materials](https://github.com/arnans/gogo7-br/blob/main/2024%2006%20Clock%20Module%20Add-on/BOM_Board1_Clock%20Module%20v1C_2024-06-01.xlsx)
+
 
 # License
 
