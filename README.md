@@ -59,14 +59,14 @@ Esta aplicação web possui as seguintes capacidades
 - Armazenamento em nuvem. O código pode ser salvo e compartilhado na nuvem.
 - Ferramentas de aprendizagem. Laboratório de Dados, Sala de Aula, Interface Web para controle remoto e mais.
 
-# Informações de Fabricação
+# Informações de Fabricação GoGo 7E
 
-Esses arquivos são para a versão 7C da GoGo Board
-- [Arquivos PCB Gerber](https://github.com/arnans/gogo7-sesi/blob/main/Gerber_PCB_GoGo_7C_2024-05-18.zip) - A GoGo Board 7 usa uma PCB de 4 camadas.
-- [Arquivo Pick and Place](https://github.com/arnans/gogo7-sesi/blob/main/PickAndPlace_PCB_GoGo%207C_2024-05-18.xlsx)
-- [Bill of Materials](https://github.com/arnans/gogo7-sesi/blob/main/BOM_GoGo%207_PCB_GoGo%207C_2024-05-18.xlsx)
-- Renderização 3D [[Top](https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C%203D%20topview.png) | [Bottom](https://github.com/arnans/gogo7-sesi/blob/main/GoGo%207C%203D%20bottomview.png)]
-- Fotos:foto da palca montada [[Superior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035141521.MP.jpg) | [Perspectiva Superior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035324777.MP.jpg) | [Inferior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035150818.MP.jpg) | [Perspectiva Inferior](https://github.com/arnans/gogo7-sesi/blob/main/2024%2007%20GoGo%207C%20Photos/PXL_20240725_035346049.MP.jpg)]
+Esses arquivos são para a versão 7E da GoGo Board
+- [Arquivos PCB Gerber](https://github.com/arnans/gogo7-br/blob/main/2025%2004%20GoGo%207E/Gerber_PCB_GoGo_7E_2025-04-10.zip) - A GoGo Board 7 usa uma PCB de 4 camadas.
+- [Arquivo Pick and Place](https://github.com/arnans/gogo7-br/blob/main/2025%2004%20GoGo%207E/PickAndPlace_PCB_GoGo%207E_2025-04-10.xlsx)
+- [Bill of Materials](https://github.com/arnans/gogo7-br/blob/main/2025%2004%20GoGo%207E/BOM_GoGo%207_PCB_GoGo%207E_2025-04-10.xlsx)
+- Renderização 3D [[Top](https://github.com/arnans/gogo7-br/blob/main/2025%2004%20GoGo%207E/3D_PCB_GoGo%207E_2025-04-10%20Top%20View.png) | [Bottom](https://github.com/arnans/gogo7-br/blob/main/2025%2004%20GoGo%207E/3D_PCB_GoGo%207E_2025-04-10%20Bottom%20View.png)]
+- Fotos:foto da palca montada:  Not available yet
 - Firmware: [Main CPU (ESP32-S3) and Tasmota Core (ESP32-C3)](https://github.com/arnans/gogo7-sesi/blob/main/firmware)
 - [Procedimento de Teste e Controle de Qualidade](https://docs.google.com/document/d/1wkHplLRawxpCvvXY5K_7zhaUBPVLWB5iVyL8zbxunkI/edit#heading=h.g8lrajqe9t70)
 
